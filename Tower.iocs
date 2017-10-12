@@ -1,0 +1,11 @@
+////ioCog Screen File
+////Tower of Hanoi
+////Rob Lewis
+////4 Aug 2017
+
+Screen (3, 1, 100);
+Panel 1, List, (Disk (Shape) Where (Peg = 1) Sort (Size)), Centre;
+Panel 2, List, (Disk (Shape) Where (Peg = 2) Sort (Size)), Centre;
+Panel 3, List, (Disk (Shape) Where (Peg = 3) Sort (Size)), Centre;
+
+
